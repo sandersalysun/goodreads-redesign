@@ -1,0 +1,229 @@
+@font-face {
+	font-family: Monteserrat;
+	src: url(Montserrat.ttf);
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url(Poppins-regular.ttf);
+}
+
+@font-face {
+	font-family: Poppins_Bold;
+	src: url(Poppins-SemiBold.ttf);
+}
+
+.navbar-brand {
+	font-family: Monteserrat;
+	color: #FFFFFF!important;
+	font-size: 30px;
+}
+
+#mainNav {
+	background-color: #0B3C33  !important;
+	height: 100px;
+}
+
+.navbar-toggler {
+	color: #0B3C33;
+}
+
+.nav-item a:link {
+	color: #e1f2ed !important;
+	font-family: Poppins;
+}
+
+.nav-item a:visited {
+	color: #0AB18A !important;
+}
+
+.nav-item a:hover{ 
+	text-decoration: underline;
+	color: #34E2B8 !important;	
+	font-size: 100%;
+}
+
+a {
+	font-family: Poppins_Bold;
+	text-decoration: underline;
+	color: #e83d47 !important;	
+	font-size: 120%;
+}
+
+a:hover {
+	font-family: Poppins_Bold;
+	text-decoration: underline;
+	color: #34E2B8 !important;	
+	font-size: 120%;
+}
+
+h1 { 
+	font-family: Monteserrat;
+	font-size: 370%;
+	color: #cee6df;
+	padding-top: 80px;
+}
+
+h2 {
+	font-family: Monteserrat;
+	color: #003A3F;
+	font-size: 270%;
+}
+
+h3 {
+	font-family: Monteserrat;
+	color: #0B3C33;
+	font-size: 220%;
+}
+
+h4 {
+	font-family: Poppins_Bold;
+	color: #0AB18A;
+}
+
+h5 { 
+	font-family: Monteserrat;
+	font-size: 120%;
+	font-weight: bold;
+	color:#e1f2ed ;
+}
+
+h6 {
+	font-family: Monteserrat;
+	color: #cee6df;
+	font-size: 270%;
+}
+
+p {
+	font-family: Poppins;
+}
+
+ul {
+	font-family: Poppins;
+}
+
+.main_lead {
+	color: #FFFFFF ;
+	font-family: Poppins;
+	font-size: 105%;
+}
+
+.lead {
+	font-size: 100%;
+	line-height: 30px;
+	font-family: Poppins;
+	color: #0b3c33;
+}
+
+.chatbot_lead {
+	font-family: Poppins_Bold;
+	color: #0AB18A;
+	font-size: 115%;
+}
+
+.small_teal_header {
+	font-family: Poppins_Bold;
+	color: #0AB18A;
+	font-size: 115%;
+}
+
+.black_bold {
+	font-family: Poppins_Bold;
+}
+
+p span.emphasize {
+	font-family: Poppins_Bold;
+	color: #0AB18A;
+	font-size: 105%;
+}
+
+p span.emphasize2 {
+	font-family: Poppins_Bold;
+	color: #0AB18A;
+	font-size: 160%;
+}
+
+p span.emphasize3 {
+	font-family: Poppins_Bold;
+	color: #e83d47;
+	font-size: 160%;
+}
+
+p span.emphasize_red {
+	font-family: Poppins_Bold;
+	color: #e83d47;
+	font-size: 105%;
+}
+
+.card-body {
+	background-color:#e1f2ed;
+	border: 2px solid #0AB18A ;
+}
+
+.card-title {
+	color:#e83d47;
+	background-color: #cee6df;
+	font-size: 120%;
+	padding: 15px;
+}
+
+.card-title2 {
+	color:#0AB18A;
+	background-color: #cee6df;
+	font-size: 120%;
+	padding: 15px;
+}
+
+.card-text {
+	color:#0B3C33;
+	padding: 10px;
+}
+
+.accordion-body {
+	font-family: Poppins;
+	font-size: 90%;
+	background-color: #e1f2ed;
+}
+
+.accordion-button {
+	background-color: #f3fffc;
+	color: #0b3c33;
+}
+
+.footer {
+	background-color: #0b3c33;
+	padding: 60px;
+}
+
+#header {
+	background-image: url("header_background.png") !important;
+	height:600px;
+}
+
+#about {
+	background-color: #e1f2ed;
+}
+
+#user_research {
+	background-image: url("section1_background.png") !important;
+	background-repeat: no-repeat;
+	background-color: #cee6df;
+}
+
+#ux_prototyping {
+	background-image: url("section4_background.png") !important;
+	background-repeat: no-repeat;
+	background-color: #e1f2ed;
+}
+
+#chatbot_design {
+	background-image: url("section1_background.png") !important;
+	background-repeat: no-repeat;
+	background-color: #cee6df;
+}
+
+#ab_testing {
+	background-image: url("section4_background.png") !important;
+	background-repeat: no-repeat;
+	background-color: #e1f2ed;
+}

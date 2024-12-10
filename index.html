@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Scrolling Nav - Start Bootstrap Template 5.3.3</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="styles.css" rel="stylesheet">
+  <!-- END LOADING BOOTSTRAP CSS -->
+
+      
+    <!-- Custom styles -->
+    <link href="custom.css" rel="stylesheet">
+
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top">
+                    <img src="open-book.png" alt="white bookicon" width="36"><b>     goodreads</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- The hrefs here must match the ID attribute of the corresponding divs/containers -->
+                        <li class="nav-item"><a class="nav-link" href="#user_research">User Research</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#ux_prototyping">UX Prototying</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#chatbot_design">Chatbot Design</a></li>
+                         <li class="nav-item"><a class="nav-link" href="#ab_testing">A/B Testing</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header id="header">
+            <div class="container px-4 text-center">
+                <h1 class="fw-bolder">goodreads app redesign</h1>
+                <p class="main_lead"><em>How might we improve the experience of students using the Goodreads app on campus?</em></p> 
+            </div>
+        </header>
+        <!-- about section -->
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2><b>why goodreads?</b></h2>
+                        <br>
+                        <p>As both a Goodreads user and a UX designer, I’ve experienced my fair share of frustrations with the current app—its interface feels <span class="emphasize">outdated, uninviting, and incredibly slow.</span> Why is this the go-to app for book lovers to share their recent reads? <span class="emphasize">Can’t we do better?</span> So, when I was asked to redesign an app interface for my Interactive Design class, I knew Goodreads was overdue for an upgrade.  </p>
+
+                        <p>I set out to create <span class="emphasize">a new and improved Goodreads.</span> To do this, I needed to gather research to make sure I appealed to the needs of the user.  </p><br>
+
+                            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="old_interface_1.png" class="d-block w-100" alt="old goodreads interface">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="old_interface_2.png" class="d-block w-100" alt="old goodreads interface">
+                                </div>
+                              </div>
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+
+                            <br>
+                            <p class="small_teal_header" style="text-align: center;">Current Goodreads Interface</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- USER RESEARCH section - the ID attribute value here must match the corresponding href in navigation -->
+        <!-- For example - this section with id="about" must match the href="#about" in the navigation -->
+        <section id="user_research">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-10">
+                        <br>
+                        <br>
+                        <br>
+                        <h2><b>user research</b></h2><br>
+                                <p>
+                                 In the research stage, the goal is to empathize with users by fully understanding their needs, behaviors, and pain points through direct engagement. Here’s how I approached this:</p>
+                                            
+                                <p>I began my user research by generating 8 open-ended research questions using AI. </p>
+                                <br>
+
+                                <p class="chatbot_lead">Here is how I prompted my chatbot to formulate my interview questions:</p>
+                                <br>
+
+                                <img src="speech_bubble1.png" height="250" style="position: relative; left:250px;" alt="speech bubble showing how I prompted my chatbot to formulate interview questions">
+
+
+                        <br>
+                        <h3> <b>research questions</b></h3>
+                            <div class="container text-left">
+                                <div class="row">
+                                    <div class="col">
+                                        <br>
+                                        
+                                            <p><span class="emphasize2">1)</span> How do you feel about the overall look and feel of the Goodreads app? What, if anything, would you change about the interface?</p>
+                                            <p><span class="emphasize2">2)</span> How would you improve the process of discovering new books or managing your reading lists on Goodreads?</p>
+
+                                            <p><span class="emphasize2">3)</span> Can you walk me through how you typically use Goodreads? Are there any features you avoid because they are difficult to use?</p>
+  
+                                            <p><span class="emphasize2">4)</span> Can you describe a recent experience where the design of the app made it harder or easier for you to navigate?</p>
+                                    </div>
+                                    <div class="col">
+                                        <br>
+
+                                            <p><span class="emphasize2">5)</span> Are there any features you wish Goodreads had that would make it more useful for your studies or campus life?</p>
+
+                                            <p><span class="emphasize2">6)</span> How intuitive do you find the navigation in the Goodreads app? Are there any areas where you get stuck or confused?</p>
+ 
+                                            <p><span class="emphasize2">7)</span> What would an ideal version of GoodReads look like to you? What changes would make the app more user-friendly and easier to navigate?</p>
+
+                                            <p><span class="emphasize2">8)</span> How do you feel about Goodreads as a platform for connecting with other readers? What would make those connections stronger or more engaging for you?</p>
+                                            <br>
+                                    </div>
+                                </div>
+                                    
+                                            <br>
+                                            <p>For survey responses, I found which of my peers were readers and whether they used or once used the Goodreads app. I limited my search to college students. For majority of peers, I sent the research questions via Google Forms. For the the peers that were most familiar with the Goodreads interface, I conducted an in-person interview. I also conducted an interview with AI. I distinguished the human feedback from the AI feedback in my interview findings. </p>
+
+                                            <p> <a href="https://forms.gle/WD7XWbH93tqambtT7" target ="_blank">Survey</a></p>
+                                            <br>
+                                            <br>
+
+
+                        <h3> <b>survey findings</b> </h3>
+
+                            <br>
+                            <p> After gathering all my data into a document, I used AI to help me analyze my data by clustering common responses.</p>
+
+                            <p class="chatbot_lead">Here is how I prompted by Chatbot to analyze my survey and interview responses:</p>
+
+                                <img src="speech_bubble2.png" height="250" style="position: relative; left:200px;" alt="speech bubble showing how I prompted by chatbot to analyze my interview and survey responses">
+                                <br>
+                                <br>
+                                <br>
+                                    
+                                <img src="research_graphs.png" height="450" style="position: relative; right: 160px;" alt="graphs depicting survey responses">
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+
+                                <div class="row"> 
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title">outdated design</h5>
+                                                    <p class="card-text">10 out of 12 respondents mentioned that the app feels old and outdated.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title">distracting interface</h5>
+                                                    <p class="card-text"> 9 respondents felt that the outdated interface made it harder to focus or find what they need.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                    <br>
+
+                                <div class="row"> 
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title">visual appeal</h5>
+                                                    <p class="card-text">Lack of engaging colors or clear visuals impacted their experience.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title">not intuitive</h5>
+                                                    <p class="card-text"> Many respondents struggle with finding specific genres, adding books, and connecting with friends.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                    <br>
+
+                                <div class="row"> 
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title">finding a book</h5>
+                                                    <p class="card-text"> 4 users highlighted difficulty in finding specific books or genres.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title">slow and buggy</h5>
+                                                    <p class="card-text"> Some users reported that the app tends to be slow and occasionally crashes.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                    <br>
+                                            
+                                <div class="row"> 
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title">limited interaction</h5>
+                                                    <p class="card-text"> Many respondents feel that Goodreads lacks meaningful social features.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title">desired features</h5>
+                                                    <p class="card-text"> User wants more social features such as chats, book clubs, and the ability to find like-minded readers.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+
+                                    <br>
+
+                                <div class="row"> 
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title">making profiles and reading challenges</h5>
+                                                    <p class="card-text"> 5 users each found these tasks challenging.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title">connecting with friends</h5>
+                                                    <p class="card-text"> 10 users found this dask difficult to complete. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+
+                                    <br>
+                                    <br>
+                                    <br>
+
+                        <h3> <b>interview findings</b> </h3><br>
+
+                            <h4>Navigation Difficulties:</h4> 
+                            <p>Many users, both in surveys and interviews, find Goodreads confusing to navigate. They report frequent misclicks, unclear pathways, and the need to click through many menus to get to desired features.</p>
+
+                                <div class="accordion accordion-flush" id="accordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Human Feedback
+                                            </button>
+                                        </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Users noted how the app feels glitchy, leading to frustration. Megan, Sam, and Summer expressed confusion over the cluttered homepage, often showing them irrelevant information (like trending books).</div>
+                                            </div>
+                                    </div>
+                                </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            AI Feedback (Chat GPT)
+                                            </button>
+                                        </h2>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">It emphasized confusion in managing bookshelves and a lack of intuitive navigation, though it acknowledged the main features are clear.</div>
+                                            </div>
+                                    </div>
+
+                                        <br>
+
+                            <h4>Outdated Interface:</h4> 
+                            <p>The app’s look is consistently criticized for being unattractive, outdated, and bland.</p>
+
+                                <div class="accordion accordion-flush" id="accordion2">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                            Human Feedback
+                                            </button>
+                                        </h2>
+                                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Megan and Sam described the interface as “ugly” and “beige,” while Nathan commented that the app feels stuck in the past, “like it hasn’t  been updated since 2015.”</div>
+                                            </div>
+                                    </div>
+                                </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                            AI Feedback (Chat GPT)
+                                            </button>
+                                        </h2>
+                                            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">The AI also highlighted the outdated design and suggested using more whitespace and modern typography.</div>
+                                            </div>
+                                    </div>
+
+                                        <br>
+
+                            <h4>Glitchy Experience:</h4> 
+                            <p>Almost all users found the app glitchy and slow to load, which made the user experience frustrating.</p>
+
+                                <div class="accordion accordion-flush" id="accordion3">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                            Human Feedback
+                                            </button>
+                                        </h2>
+                                            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Megan and Summer frequently gave up when the app glitched. Sam also mentioned how the slowness made the app less enjoyable to use.</div>
+                                            </div>
+                                        </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                            AI Feedback (Chat GPT)
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">The AI mirrored these concerns, describing the interface as "clunky," impacting task completion speed.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                    <br>
+
+                            <h4>Challenges in Connecting with Friends:</h4>
+                            <p>Most users mentioned issues with the social features, particularly connecting with friends.</p>
+
+                                <div class="accordion accordion-flush" id="accordion4">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                            Human Feedback
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Nathan and Sam were both frustrated with the difficulty in finding and interacting with friends. Megan and Summer found the process cumbersome, with Summer unable to even find friends using their exact username.</div>
+                                        </div>
+                                    </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                                                AI Feedback (Chat GPT)
+                                                </button>
+                                            </h2>
+                                                <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">ChatGPT echoed this sentiment, calling for stronger social features like chat or discussion rooms to foster better connections.</div>
+                                                </div>
+                                        </div>
+                                    </div>
+
+                                        <br>
+
+                            <h4>Improvement Suggestions:</h4>
+                            <p>A common suggestion was to add more customization to profiles, possibly including themes or a dedicated landing page (Megan, Summer).</p>
+
+                                <div class="accordion accordion-flush" id="accordion5">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                                            Human Feedback
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><br>
+                                            Nathan and Sam would like to see Goodreads incorporate more interactive features, like communication tools (e.g., chat) or book clubs, similar to other apps like Letterboxd.<br>
+                                            Many noted the need for a better recommendation algorithm that could reflect their true reading preferences rather than focusing solely on trending or popular books.</div>
+                                        </div>
+                                    </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                                                AI Feedback (Chat GPT)
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">The AI also called for improved recommendations, more intuitive filters, and better social interaction features like book clubs and chat.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                        <br>
+                                        <br>
+                                        <br>
+
+                            <h3> <b>survey vs. interview findings</b> </h3><br>
+
+                                <p><span class="emphasize_red">Surveys:</span></p> 
+                                    <p>More respondents (7/12) found the app’s cluttered homepage an issue and preferred the ability to customize recommendations. Others called for ways to group reading lists or better manage bookshelves.</p>
+                                <p><span class="emphasize_red">Interviews:</span></p> 
+                                    <p>The live interviews brought up some unique pain points:</p>
+                                    
+                                    <ul>
+                                        <li>Megan suggested logging individual chapters of textbooks for academic purposes, while Summer wanted to link Goodreads with her school email.</li>
+                                        <li>Sam and Nathan expressed dissatisfaction with the app’s algorithm, noting its tendency to recommend only the most popular books, which sometimes clashed with their personal preferences.</li>
+                                    </ul>
+                                        
+                                        <br>
+
+                                    <p>From these survey results, I needed to identify the most common pain points communicated by users. I used a chatbot to help identify the five most communicated points of pain from users. Using AI in this process helped me eliminate any bias I may have held about the app. After identifying these pain points, I needed to make sure I addressed these issues in my design requirements. </p>
+
+                                    <br>
+                                        
+                            <h3><b>five pain points</b></h3>
+
+                                <br>
+                                <p class="chatbot_lead">Here is how I prompted my chatbot to help me identify five pain points based on the needs communicated by users:</p>
+
+                                <br>
+                                            
+                                <img src="speech_bubble3.png" height="270" style="position: relative; left:200px;" alt="speech bubble showing how I prompted my cahtbot to identify five pain points based on user responses.">
+
+                                <br>
+                                <br>
+
+                                    <h4>1. Difficult Navigation:</h4> 
+                                        <p>Users consistently reported difficulty navigating the app. Many had to click through multiple menus to reach desired features, and they found that certain sections (like profile pages or reading lists) were buried deep in the interface.</p>     
+
+                                    <h4>2. Outdated Interface:</h4> 
+                                        <p>Users frequently mention the outdated design, with a bland and cluttered appearance that lacks modern UI features like dark mode. Both surveys and interviews indicated that the app looks "dated" and "ugly," with a beige color palette and rigid, sharp squares contributing to an unpleasant visual experience.</p>
+
+                                    <h4>3. Poor Social Features:</h4> 
+                                        <p>A recurring theme was dissatisfaction with the social features, specifically how difficult it is to connect with friends. Users also felt that once they connected, there was little they could do with those connections, making the social experience passive and unengaging.</p>
+
+                                    <h4>4. Overwhelming and Poor Discoverability:</h4> 
+                                        <p>The app overwhelms users with features, and finding new books is difficult due to impersonal and inaccurate recommendations that are not tailored to users reading preferences. </p>
+
+                                    <h4>5. Slowness and Glitches:</h4> 
+                                        <p>Many users, particularly in the interviews, complained about frequent glitches and long load times, which sometimes caused them to give up on the app entirely.</p>
+
+                                        <br>
+                                        <br>
+
+                            <h3><b>six design requirements</b></h3>
+
+                                <br>
+
+                                <img src="design_12.png" height="330" style="position: relative; right:120px;" alt="design requirements 1 and 2.">
+
+                                <img src="design_34.png" height="330" style="position: relative; right:120px;" alt="design requirements 3 and 4.">
+
+                                <img src="design_56.png" height="330" style="position: relative; right:120px;" alt="design requirements 5 and 6.">
+                                
+                                <br>
+                                <br>
+
+                            <h3><b>primary and secondary personas</b></h3>
+                                
+                                <br>
+                                        
+                                <img src="Primary_Persona.png" class="images" width="1000" alt="Description of primary persona, Abigail Scott, who represents 60% of users in the data set.">
+
+                                <br>
+                                <br>
+
+                                <img src="Secondary_Persona.png" class="images" width="1000" alt="Description of Secondary Persona, Will Green, who represents 20% of users in the data set.">                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- UX PROTOTYING section-->
+        <section id="ux_prototyping">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-9">
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <h2><b>ux prototyping</b></h2>
+
+                            <p class="lead">Before designing my prototypes, I wanted to challenge my previous assumptions I made about the Goodreads app based on what the results presented in the data.</p>
+
+                            <h4><b>challenge assumptions + ideate</b></h4>
+
+                            <br>
+
+                            <div class="accordion accordion-flush" id="accordion6">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                                        initial assumption
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">I assumed the app’s design, while somewhat outdated, wouldn’t be a major pain point for users. I thought minor aesthetic updates like color tweaks or small UI changes would suffice in making the app more appealing.</div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                                        what the data showed
+                                        </button>
+                                    </h2>
+                                        <div id="flush-collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">The research revealed that the design was a significant issue for most users. They found the interface not just dated but unpleasant to use, describing it as "ugly" and "beige." Many users explicitly mentioned the lack of modern UI features like dark mode, clearer visuals, and better use of whitespace. The design seemed to have a bigger impact on usability and user satisfaction than expected.</div>
+                                        </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+                                        key takeaways
+                                        </button>
+                                    </h2>
+                                        <div id="flush-collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">I expanded my ideation to include a complete design overhaul rather than small updates. Ideas like incorporating more whitespace, modern typography, and offering customizable dark mode were central to improving the overall aesthetic and user engagement. I also considered a more fluid, rounded design to replace the rigid and boxy UI that users disliked.</div>
+                                        </div>
+                                </div>
+                            </div>
+
+                                <br>
+
+                            <div class="accordion accordion-flush" id="accordion7">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
+                                        initial assumption
+                                        </button>
+                                    </h2>
+                                        <div id="flush-collapseFourteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">I thought that Goodreads' recommendation system was at least satisfactory for most users, as it uses data-driven algorithms based on books added to shelves, ratings, and reviews. I expected that most complaints would center around other app features.</div>
+                                        </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFifteen" aria-expanded="false" aria-controls="flush-collapseFifteen">
+                                          what the data showed
+                                          </button>
+                                        </h2>
+                                            <div id="flush-collapseFifteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">The research contradicted this assumption, as users found the recommendation system impersonal, mostly offering trending books or popular reads rather than truly reflecting their unique reading preferences. This resulted in frustration when trying to discover new books.</div>
+                                            </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSixteen" aria-expanded="false" aria-controls="flush-collapseSixteen">
+                                        key takeaways
+                                        </button>
+                                    </h2>
+                                        <div id="flush-collapseSixteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Ideation focused on improving the recommendation algorithm to better align with individual user preferences, taking into account reading history, genre preferences, and possibly incorporating friend recommendations to add a social element to book discovery. Rather than recommending popular titles, the system would become more personalized and refined.</div>
+                                        </div>
+                                </div>
+                            </div>
+
+                                <br>
+
+                            <div class="accordion accordion-flush" id="accordion8">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeventeen" aria-expanded="false" aria-controls="flush-collapseSeventeen">
+                                        initial assumption
+                                        </button>
+                                    </h2>
+                                        <div id="flush-collapseSeventeen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Since the primary function of Goodreads is to track reading progress, I assumed that users would find tasks like adding books or managing their reading lists straightforward and intuitive.</div>
+                                        </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEighteen" aria-expanded="false" aria-controls="flush-collapseEighteen">
+                                        what the data showed
+                                        </button>
+                                    </h2>
+                                        <div id="flush-collapseEighteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Users actually struggled with managing their bookshelves and adding books. They expressed frustration over the process being unintuitive, with tasks like adding books, editing activity, and organizing reading lists being more cumbersome than expected. They wanted more control over categorizing books and managing private vs. public shelves.</div>
+                                        </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNineteen" aria-expanded="false" aria-controls="flush-collapseNineteen">
+                                        key takeaways
+                                        </button>
+                                    </h2>
+                                        <div id="flush-collapseNineteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Based on this, I ideated around batch management of bookshelves and more intuitive controls. For instance, users could easily create and customize multiple reading categories (school vs. leisure books) with private and public settings, reducing the clutter and improving book organization.</div>
+                                        </div>
+                                </div>
+                            </div>
+
+                                <br>
+                                <br>
+
+                    <h2><b>wireframes</b></h2>
+                        <br>
+
+                        <p> I have begun the prototyping phase by designing wireframes that incorporate the solutions outlined above:
+
+                            <br>
+
+                            <p>The <span class="emphasize_red"> navigation bar</span> prominently features icons for adding books, accessing shelves, and managing profiles, to help streamlining user actions.</p>
+
+                            <p>The <span class="emphasize_red">modern design</span> includes cleaner, more appealing aesthetics with an updated color palette and rounded edges. I demonstrated the theme in a dark mode because many users requested this.</p>
+
+                            <p>The <span class="emphasize_red">social features</span> prototype focuses on book clubs, user profiles with activity updates, and in-app messaging, making it easier for users to connect and interact.</p>
+
+                            <p>The <span class="emphasize_red">recommendation algorithm</span> is designed to reflect user preferences, offering personalized book suggestions based on their history, genre preferences, and friends' recommendations.</p>
+
+                            <br>
+                            <br>
+
+
+                        <h3><b>getting to profile</b></h3>
+
+                            <br>
+                            <br>
+
+                            <div class="container text-right">
+                                <div class="row align-items-start">
+                                    <div class="col-sm-8">
+                                        <img src="wireframe1.png" height="500" alt="wireframe design of how to get to the profile page from the home screen" style="position: relative; right:100px;">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <br>
+                                            <p> Users expressed frustration in navigating to their homepage so I made sure to include <span class="emphasize">the profile button in the main navigation bar on the right side,</span> which is intuitive since it is commonly placed there in other apps. I also included <span class="emphasize">social elements throughout the homepage and profile page such as friend activity, reading challenges, and bookclubs</span> to further support interaction with friends. I made <span class="emphasize">the book you are currently reading the first thing on the home page</span> so users can easily update their reading status upon opening the app.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+
+
+                        <h3><b>discovering + adding a book</b></h3>                                    
+
+                                <div class="container text-right">
+                                    <div class="row align-items-start">
+                                        <div class="col-sm-4">
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <br>
+                                                <p> Users expressed frustration in book recommendations not being tailored to the users reading history. I made sure to include <span class="emphasize">a recommendation algorithm that pays attention to users reading history.</span> Once clicking on a book, you are able to quickly add it to your shelf, begin reading, or create a bookclub. In addition, users are also able to <span class="emphasize">search by genre, best sellers, and see what is popular among users.</span> </p>
+                                    
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <br>
+                                            <img src="wireframe2.png" height="500" alt="wireframe design of how to discover a book from the explore page and how to add a book to your bookshelf" style="position: relative; left:50px;">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br>
+                                <br>
+
+                    <h2><b>prototypes</b></h2><br><br>
+
+                        <p> I designed the prototypes using <span class="emphasize_red">Uizard,</span> a new AI UX design tool that can take prompts and design a high-fidelity prototype within seconds. I found this platform innovative, although the results, while impressive, were not what I was looking for when it came to my Goodreads redesign. For this reason, I designed the app without the use of AI help. The interface of Uizard itself was very intuitive, and I enjoyed becoming familar with this new up and coming design platform. </p>
+
+                            <br>
+                            <br>
+
+
+                        <h3><b>getting to profile</b></h3><br><br>      
+                            <div class="container text-right">
+                                <div class="row align-items-start">
+                                    <div class="col-sm-8">
+                                        <img src="prototype1.png" height="550" alt="fully designed prototype in color of how to get to the profile from the homepage. App is dark green with accents of teal." style="position: relative; right:150px;">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <br>
+                                        
+                                        <p> When crafting the interface, I created it in a <span class="emphasize">dark mode</span> per the request of many users. In goodreads, I found the app to lack color and warmth as it was completely beige. In my redesign, I made sure to <span class="emphasize">enlarge the book covers to add color, and created a pop of teal throughout the interface</span> to bring some life to it. Rounded corners throughout the interface help create a more inviting design than the original app’s harsh corners. Additions such as <span class="emphasize">reading challenges and book clubs</span> on the profile page allow the user to easily display what they are up to in the app.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+
+
+                        <h3><b>discovering + adding a book</b></h3>                               
+
+                            <div class="container text-left">
+                                <div class="row align-items-start">
+                                    <div class="col-sm-4">
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                            <p> For the explore page, I made sure to include <span class="emphasize">multiple starting points to discovering a new book</span> while not letting the interface feel overcrowded. Book covers and neat buttons allow the design to <span class="emphasize">feel aesthetically pleasing without overwhelming the user.</span>  When adding a book, I made sure the steps were clear with <span class="emphasize">large, bright buttons directing the user.</span> Bookshelves are organized based on activity, users can add to multiple bookshelves, and they can be collaborative. </p>
+                                    </div>
+                                    <div class="col-sm-8">
+                                    <br>
+                                        <img src="prototype2.png" height="500" alt="fully designed prototype in color of how to discover a book from the explore page and how to add a book to your bookshelf. App is dark green with accents of teal." style="position: relative; left:50px;">
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CHATBOT DESIGN section-->
+        <section id="chatbot_design">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-10">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h2><b>chatbot design</b></h2><br>
+                            <p class="lead">Willy the Bookworm, my AI chatbot for the Goodreads app, <span class="emphasize">encourages social engagement</span> by suggesting and helping form book clubs, proactively suggesting interactions, surfacing relevant content, and streamlining social features like commenting, group invitations, and private messaging.</p><br>
+                                <img src="willy_worm.png" height="250" alt="green bookworm named willy who helps user navigate the app using ai" style="position: relative; left:250px;">
+                    
+                        <h3> <b>willy's capabilities</b></h3>
+                            <div class="container text-left">
+                                <div class="row">
+                                    <div class="col">
+                                        <br>
+                                        <h4>1) commenting assistance</h4> 
+                                            <ul>
+                                                <li> Suggests quick comments when users view friends' activity (e.g., “I loved this book too!” or “What did you think of the ending?”)</li>
+                                                <li>Provides a shortcut for users to leave comments directly within notifications about friends’ activities (status updates, reviews, book completions).</li>
+                                                <li>Tracks user preferences for commenting and offers personalized recommendations (e.g., showing most active friends first).</li>
+                                            </ul>
+
+                                        <h4>2) activity feed integration</h4>
+                                            <ul>    
+                                                <li> Notifies users when friends update their reading statuses, review books, or join new groups, with options to quickly react or comment.</li>
+                                                <li>Displays group activity, highlighting interesting discussions happening in book clubs that match the user’s interests.</li>
+                                                <li>Allows users to easily join group discussions or start new ones based on trending topics in their circles.</li>
+                                            </ul>
+
+                                        <h4>3) social suggestion</h4>
+                                            <ul>
+                                                <li>Recommends friends based on shared reading preferences or recent interactions (e.g., if two users are reading the same book).</li>
+                                                <li>Suggests book clubs or group activities aligned with the user’s recent book history or genre preferences.</li>
+                                                <li>Suggests friends or users to follow based on similar activity patterns (e.g., mutual reviews, joining the same group).</li>
+                                        </ul>                             
+                                    </div>
+                                    <div class="col">
+
+                                        <br>
+                                        <h4>4) bookclub engagement</h4>
+                                            <ul>
+                                                <li>Sends reminders about upcoming book club meetings or discussions.</li>
+                                                <li>Offers summaries of book club conversations and suggests where to chime in.</li>
+                                                <li>Enables users to start book discussions from a chat with their friends, turning private conversations into public group topics.</li>
+                                            </ul>    
+
+                                        <h4>5) personalized discussion prompts </h4>
+                                            <ul>
+                                                <li>Uses AI to generate meaningful discussion prompts based on users' reading habits or recent book reviews (e.g., “Want to ask your friends what they thought about this twist?”).</li>
+                                                <li>Proposes discussion topics or polls within group chats to foster engagement and participation.</li>
+                                            </ul>    
+
+                                        <h4>6) friend's activity summary </h4>
+                                            <ul>
+                                                <li>Provides daily or weekly summaries of friends' activities and suggests ways to interact (e.g., "Audrey finished reading 1984, do you want to ask her how she liked it?”).</li>
+                                                <li>Compiles friends’ reading progress and reviews for quick browsing.</li>
+                                            </ul>    
+
+                                        <h4>7) direct messaging enhancement </h4>
+                                            <ul>
+                                                <li>Allows users to message friends directly from book pages or activity notifications.</li>
+                                                <li>Integrates with other messaging services for quick sharing (e.g., sharing book quotes or reviews).</li>
+                                             </ul>    
+                                            <br>
+                                    </div>
+                                </div>
+                                    <br>
+            
+                        <h3> <b>willy's data inputs</b> </h3><br>
+
+                            <div class="row"> 
+                                 <div class="col-sm-6">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">user's reading preferences</h5>
+                                            <p class="card-text">Favorite genres, authors, and past reading history to align interaction suggestions.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">friendship and social network data</h5>
+                                            <p class="card-text"> List of friends, group memberships, and recent interactions (comments, messages, reactions).</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+
+                                <br>
+
+                            <div class="row"> 
+                                 <div class="col-sm-6">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">user activity</h5>
+                                            <p class="card-text">Data from user's interactions (comments, book reviews, reading updates) to recommend relevant discussions.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">friend's activity</h5>
+                                            <p class="card-text"> Friends’ reading history, status updates, and reviews to prompt engagement.<br><br></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+
+                                <br>
+
+                            <div class="row"> 
+                                 <div class="col-sm-6">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">group participation</h5>
+                                            <p class="card-text"> Information about book clubs, past discussions, and group memberships to generate suggestions for involvement.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">sentiment analysis</h5>
+                                            <p class="card-text"> Uses AI to analyze the tone of friends' reviews or comments to generate more personalized prompts or comments.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+
+                                <br>
+
+                            <div class="row"> 
+                                 <div class="col-sm-6">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">notification history</h5>
+                                        <p class="card-text"> Tracks user’s engagement with notifications to tailor the frequency and type of suggestions (e.g., prompting more commenting when users typically react but don’t comment).</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                                  <br>
+
+
+                            <br>
+                            <br>
+                        <h3> <b>meeting willy + error handling</b> </h3><br>
+                                <img src="willy_convo1.png" alt="iphone showing chat coversation with willy; introduction and how willy handle's error and user questions." width="1100" style="position: relative; right:70px;">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                        <h3> <b>the daily update with willy</b> </h3>
+                                    <br>
+                                <img src="willy_convo2.png" alt="iphone showing chat coversation with willy; the daily update once you open the app, willy updating user on friend activity and other things." width="1100" style="position: relative; right:70px;">
+                                    <br>
+                                    <br>
+                                    <br>                         
+                                    <br>
+                                    <br>
+                        <h3><b>request to make a bookclub with willy</b></h3>
+                                    <br>
+                                <img src="willy_convo3.png" alt="iphone showing chat coversation with willy; how to request willy to make a bookclub." width="1100" style="position: relative; right:50px;">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- AB TESTING section-->
+        <section id="ab_testing">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-9">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <h2><b>a/b testing</b></h2>
+                            <p class="lead">Before finalizing my app design, I wanted to do an A/B test to make sure my flows were as user-friendly as possible and did not cause any extra complications. I decided to test my second user flow: discovering and adding a book to shelf.</p>
+
+                            <p class="chatbot_lead">I used Chat GPT to help me brainstorm some alternative user flows for this task. Here is how I prompted my chatbot.</p>
+
+                                <img src="speech_bubble4.png" height="250" style="position: relative; left:200px;" alt="speech bubble showing how I prompted my chatbot to help me brainstorm alternative user flows.">
+
+                            <br>
+                            <br>
+                        
+                            <h3> <b>why this flow was chosen for testing</b> </h3>
+                                <br>
+                                <p> This user flow <span class="emphasize">-discovering a new book and adding it to a shelf—</span> is critical for user engagement on a platform like Goodreads. Many users rely on Goodreads to track their reading and organize books, so ensuring this process is as smooth and intuitive as possible can significantly impact user satisfaction.<br>
+
+                                    <p class="small_teal_header"> Key reasons for choosing this flow for testing:</p>
+
+                                <ul>
+                                    <li>Frequency of Use: Adding books to shelves is a common action that users perform frequently. Any improvement here could have a big impact on the app's usability and the user’s overall experience.</li>
+                                    <li>Reducing Friction: Interviews and surveys showed that users felt overwhelmed by too many options or steps, leading to friction in the book-adding process. Testing a streamlined option (Version B) can reveal if a quicker, more focused flow leads to greater satisfaction.</li>
+                                    <li>Balancing Simplicity and Functionality: Version A offers more options upfront, but it may clutter the interface and slow down the process. Version B reduces visual clutter and simplifies the action, which may be more efficient but needs to be tested to ensure it doesn’t sacrifice functionality.</li>
+                                </ul>
+                                    <br>
+                                    <br>
+
+                            <h3> <b>differences between version (a) and version (b)</b> </h3><br>
+
+                                <p><span class="emphasize_red">Book Details Page Layout</span></p>
+
+                                    <div class="accordion accordion-flush" id="accordion10">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwenty" aria-expanded="false" aria-controls="flush-collapseTwenty">
+                                                Version A
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwenty" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Multiple buttons are displayed on the Book Details page, allowing users to directly choose specific actions like “Currently Reading” or “Bookclub Read.” This version gives users more options upfront but can look cluttered and may require more taps.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyOne" aria-expanded="false" aria-controls="flush-collapseTwentyOne">
+                                                Version B
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwentyOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Only one “Quick Add” button is present, streamlining the interface and reducing visual clutter. Users can access other actions, but these are hidden behind a modal for a cleaner look.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                      <br>
+
+                                <p><span class="emphasize_red">Adding to Shelves Interaction</span></p>
+
+                                    <div class="accordion accordion-flush" id="accordion11">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyTwo" aria-expanded="false" aria-controls="flush-collapseTwentyTwo">
+                                                Version A
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwentyTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Tapping “Add to Shelves” leads the user to a list of all their shelves. They can scroll through all shelves and check one or more to add the book. This method provides full control but requires more steps.</div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyThree" aria-expanded="false" aria-controls="flush-collapseTwentyThree">
+                                                Version B
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwentyThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Tapping “Quick Add” brings up a modal with personalized shelf options based on the user’s habits (e.g., “Want to Read,” “Favorites”). Users can quickly tap one of these options without having to scroll through a long list. Additional shelves are accessible but hidden behind a scroll or “see more” option, offering more simplicity for common actions.</div>
+                                            </div>
+                                      </div>
+                                    </div>
+
+                                      <br>
+
+                                <p><span class="emphasize_red"> Confirmation and Feedback</span></p>
+
+                                    <div class="accordion accordion-flush" id="accordion12">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyFour" aria-expanded="false" aria-controls="flush-collapseTwentyFour">
+                                                Version A
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwentyFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">After selecting shelves, the user might receive a confirmation message or visual feedback to confirm the book was added.</div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyFive" aria-expanded="false" aria-controls="flush-collapseTwentyFive">
+                                                Version B
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwentyFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">After a single tap on a shelf in the modal, a brief confirmation (like a checkmark animation or toast message) appears to indicate that the book was successfully added, then the modal closes automatically.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                      <br>
+                                      <br>
+                                      <br>
+
+                      <h3> <b>testing hypothesis</b> </h3>
+
+                        <br>
+
+                            <p> The A/B test will examine whether simplifying the process with Version B (single “Quick Add” button and a modal with pre-selected shelves) improves user experience by making the flow faster and more intuitive, without sacrificing user satisfaction. To conduct the test, I had <span class="emphasize_red">5 users complete user flow design (a) and 5 users complete user flow design (b).</span> Immediately after completing the task, the users answered 5 follow up questions depending on which version they were given.</p>
+
+                                <br>
+
+                                <p><span class="emphasize">Hypothesis:</span>  Users will prefer Version B because it reduces the number of steps, presents a cleaner interface, and aligns with the need for a quick and convenient way to organize books.</p>
+                                <p><span class="emphasize">Metrics: </span> User satisfaction will be measured using a post-interaction feedback survey on ease of use and enjoyment.</p>
+
+                                <p> By comparing these metrics, you can assess which version better supports users' needs and offers a smoother experience for organizing books on Goodreads.</p>
+
+                                    <br>
+                                    <br>
+
+                      <h3> <b>user flow design (a)</b> </h3>                  
+                            <img src="ab_test1.png" alt="original user flow of how to discover and a book and add to shelf." width="800" style="position: relative; left:50px;">
+
+                            <br>
+                            <br>
+
+                       <h3> <b>user flow design (b)</b> </h3>  
+                            <br>   
+                                <img src="ab_test2.png" alt="user flow with quick add option, new design with less steps, less decisions, less options" width="1000" style="position: relative; right:30px;">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+
+                            <p class="chatbot_lead">I used Chat GPT to provide me 5 follow up questions to ask users about their experience so I can better understand how they feel after completing their user flow. Here is how I prompted my chatbot:</p>
+
+
+                            <img src="speech_bubble5.png" height="230" style="position: relative; left:250px;" alt="speech bubble showing how I prompted my chatbot to provide me follow up questions after A/B testing">
+                            <br>
+                            <br>
+                            <br>
+
+                            <h3> <b>follow up questions for design (a)</b> </h3>  
+
+                                    <br>
+                                    <p class="black_bold"><span class="emphasize2">1)</span>How did you feel about having separate buttons for each reading action (e.g., "Currently Reading," "Add to Shelves," "Bookclub Read") on the Book Details page?</p>
+                                            <p><span class="emphasize">Objective:</span> Assess if users found the multiple buttons helpful or overwhelming.</p>
+
+                                    <p class="black_bold"><span class="emphasize2">2)</span>Was the process of selecting shelves intuitive for you? Did you feel that it took more steps than expected?</p>
+                                            <p><span class="emphasize">Objective:</span> Evaluate if users found the shelf selection straightforward or cumbersome.</p>
+
+
+                                    <p class="black_bold"><span class="emphasize2">3)</span>How easy was it to find the specific shelf you wanted to add the book to?</p>
+                                            <p><span class="emphasize">Objective:</span> Understand if users had any difficulty with locating or scrolling through the full list of shelves.</p>
+
+
+                                   <p class="black_bold"><span class="emphasize2">4)</span>Did you feel that you had enough control over adding the book to multiple shelves if needed?</p>
+                                            <p><span class="emphasize">Objective:</span> Determine if users liked adding books to multiple shelves or if it was unnecessary.</p>
+
+                                   <p class="black_bold"><span class="emphasize2">5)</span>If you could change one thing about this process, what would it be?</p>
+                                        <p><span class="emphasize">Objective:</span> Gather suggestions for simplifying or enhancing the user flow.</p>
+                                    <br>
+                                    <br>
+
+                            <h3> <b>follow up answers for design (a)</b> </h3>
+                                <br>
+                                <br>
+
+                                <div class="row"> 
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title2">Sam</h5>
+                                                    <p class="card-text">
+                                                        <span class="emphasize">1)</span>“I felt a little confused on which button to pick, since they were all kinda the same color and the same size, but once I read them it was easy.”<br>
+                                                        <span class="emphasize">2)</span>“It was pretty intuitive, I just felt like the screen had a lot going on when having to pick which shelves I wanted to put it in, with the multiple options.”<br>
+                                                        <span class="emphasize">3)</span>“It wasn’t hard to find it, but I just got a little slowed down with having multiple options to select.”<br>
+                                                        <span class="emphasize">4)</span>"I liked having the options, although I wouldn't add to multiple shelves very often."<br>
+                                                        <span class="emphasize">5)</span>"Make it slightly easier to make the most complete the most common action."<br>
+                                                    </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                  <div class="col-sm-6">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title2">Daphne</h5>
+                                        <p class="card-text">
+                                                <span class="emphasize">1)</span>“It was fine, I think most of the time you are adding so the other buttons don’t need to be as prominent.”<br>
+                                                <span class="emphasize">2)</span>“It was pretty intuitive, I felt like it was similar to what Goodreads currently has so I was able to understand it quickly.”<br>
+                                                <span class="emphasize">3)</span>“It wasn’t hard to find it, but I just got overwhelmed with having multiple options to select.”<br>
+                                                <span class="emphasize">4)</span>“I definitely liked having the option to add to multiple shelves since Goodreads does not currently have that.”<br>
+                                               <span class="emphasize">5)</span>“I think the add to shelves option should be the most prominent button.”<br>
+                                            </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <br>
+
+                                <div class="row"> 
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title2">Summer</h5>
+                                                    <p class="card-text">
+                                                    <span class="emphasize">1)</span>“I liked having all three buttons. I felt like it made sense as I got there, although I had to look at it for a second to make sure I hit the right button.”<br>
+                                                    <span class="emphasize">2)</span>“Selecting the shelves was intuitive but I kinda wasn’t expecting the extra step and had to pause for a second to understand what to do.”<br>
+                                                    <span class="emphasize">3)</span>“It was easy.”<br>
+                                                    <span class="emphasize">4)</span>“I liked having the options and the control to add to multiple shelves.”<br>
+                                                    <span class="emphasize">5)</span>“I am not sure. But it would be cool to see which of my friends read the book.”<br>
+                                                    </p>
+                                            </div>
+                                        </div>
+                                  </div>
+
+                                  <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title2">Rachel</h5>
+                                                    <p class="card-text">
+                                                    <span class="emphasize">1)</span>“I liked it, I had to read them all to know which one to click though, but it was easy.”<br>
+                                                    <span class="emphasize">2)</span>“I feel like selecting shelves isn’t super necessary since I’m rarely adding a book to two shelves.”<br>
+                                                    <span class="emphasize">3)</span>“It was really easy to find the shelf.”<br>
+                                                    <span class="emphasize">4)</span>“I like having the control but again, I’m not sure if it is necessary for me as a user.”<br>
+                                                    <span class="emphasize">5)</span>“I think the process could be condensed a little bit, but overall the aesthetics and the feel of everything was great.”<br>
+                                                    </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br>
+
+                                <div class="row"> 
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title2">Benjamin</h5>
+                                                    <p class="card-text">
+                                                    <span class="emphasize">1)</span>“I didn’t find the buttons confusing but there wasn’t any hierarchy.”<br>
+                                                    <span class="emphasize">2)</span>“I thought selecting the shelves was easy, it reminded me of spotify but I don’t know if all of that is necessary because people don’t save as many books as they do music.”<br>
+                                                    <span class="emphasize">3)</span>“It was really easy.”<br>
+                                                    <span class="emphasize">4)</span>“I like having the control to add to multiple shelves at once. It would save time.”<br>
+                                                    <span class="emphasize">5)</span>“Maybe a shortcut way to add a book to your most used shelf because I feel like there was a lot of steps.”<br>
+                                                    </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <h3> <b>follow up questions for design (b)</b> </h3>  
+
+                                    <br>
+                                    <p class="black_bold"><span class="emphasize3">1)</span>HDid you find the single “Quick Add” button easy to use and understand?</p>
+                                            <p><span class="emphasize_red">Objective:</span> Gauge if the simplified button was intuitive for users and communicated its function well.</p>
+
+                                    <p class="black_bold"><span class="emphasize3">2)</span>How did you feel about the suggested shelves in the Quick Add modal? Did you find them relevant and helpful?</p>
+                                            <p><span class="emphasize_red">Objective:</span> Assess whether the personalized shelf options were useful and if they matched user expectations.</p>
+
+                                    <p class="black_bold"><span class="emphasize3">3)</span>Did the limited number of shelf options in the modal feel restrictive, or did it streamline the process for you?</p>
+                                            <p><span class="emphasize_red">Objective:</span> Determine if users felt limited by the modal or if they appreciated the streamlined selection.</p>
+
+                                   <p class="black_bold"><span class="emphasize3">4)</span>Was it easy to add a book to a less frequently used shelf or create a new shelf if you wanted to?</p>
+                                            <p><span class="emphasize_red">Objective:</span> Understand if users felt they could still access all shelves or create a new one easily.</p>
+
+                                   <p class="black_bold"><span class="emphasize3">5)</span>IWould you prefer this Quick Add method over a more detailed interface, like multiple buttons on the Book Details page? Why or why not?</p>
+                                        <p><span class="emphasize_red">Objective:</span> Get a comparison-based opinion on the simplified approach versus a more detailed interface, based on the user’s experience.</p><br>
+                                    <br>
+
+                        <h3> <b>follow up answers for design (b)</b> </h3>
+                            <br>
+                            <br>
+
+                                <div class="row"> 
+                                 <div class="col-sm-6">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Bucky</h5>
+                                        <p class="card-text">
+                                                <span class="emphasize_red">1)</span>“I really liked the quick add option. There was very little possibility of getting confused in the process and I could complete the task very fast.”<br>
+                                                <span class="emphasize_red">2)</span>“I found the shelf I wanted to use really easily, so yes. I think the shelves displayed were accurate to the ones I use most."<br>
+                                                <span class="emphasize_red">3)</span>“I didn’t find it restrictive, since most of the time I will be adding it to one of those shelves. I rarely use the others honestly.”<br>
+                                                <span class="emphasize_red">4)</span>“I saw a button to see more shelves so it seemed easy enough to me. I didn't click it though.”<br>
+                                                <span class="emphasize_red">5)</span>“The idea of options seems nice but as long as I can still access them I prefer a streamlined version of things to speeden up the process.”<br>
+                                            </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Megan</h5>
+                                        <p class="card-text">
+                                                <span class="emphasize_red">1)</span>“Yes, very easy. Quick add is a universal thing that everyone would understand right away.”<br>
+                                                <span class="emphasize_red">2)</span>“I think the favorites shelf isn’t necessary in the options since I don’t add many books to that shelf off the bat. Maybe stagger the shelves based on their size.”<br>
+                                                <span class="emphasize_red">3)</span>“I think it made the process faster. I like having less decisions. As long as I can view all my shelves in a different place, I don’t mind the condensed version.”<br>
+                                                <span class="emphasize_red">4)</span>“I think it would still be pretty easy to add to other shelves”<br>
+                                                <span class="emphasize_red">5)</span>“I am not really sure. I like having options but I also think less decisions makes the process easier. Maybe a perfect in-between.”<br>
+                                            </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <br>
+
+                                <div class="row"> 
+                                 <div class="col-sm-6">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Kennedy</h5>
+                                        <p class="card-text">
+                                                <span class="emphasize_red">1)</span>“The quick add was very easy to understand. It was the obvious choice.”<br>
+                                                <span class="emphasize_red">2)</span>“Yes the shelf was very easy to find and they are the ones people use the most.”<br>
+                                                <span class="emphasize_red">3)</span>“I didn’t find it restrictive, I feel like I rarely use alternative shelves.”<br>
+                                                <span class="emphasize_red">4)</span>“Yeah, I feel like the “see more” button implies it will be really easy to access them.”<br>
+                                                <span class="emphasize_red">5)</span>“This version seemed good all around to me so I wouldn’t want to mess with it and add more options.”<br>
+                                            </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <div class="card">
+                                      <div class="card-body">
+                                       <h5 class="card-title">Audrey</h5>
+                                        <p class="card-text">
+                                                <span class="emphasize_red">1)</span>“I love the single button option. As someone with ADHD I like when things are obvious.”<br>
+                                                <span class="emphasize_red">2)</span>“I found the shelf I was looking for so I did find it helpful.”<br>
+                                                <span class="emphasize_red">3)</span>“It wasn’t restrictive. I like the idea of being able to see all the shelves if I use them though.”<br>
+                                                <span class="emphasize_red">4)</span>“I didn’t try to find another shelf but I think it is important this option is easy to access.”<br>
+                                                <span class="emphasize_red">5)</span>“I can’t imagine what other options I would need besides adding it to the shelf but if the other buttons were useful to me I would like it. ”<br>
+                                            </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <br>
+
+                                <div class="row"> 
+                                 <div class="col-sm-6">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Alexa</h5>
+                                        <p class="card-text">
+                                                <span class="emphasize_red">1)</span>“The quick-add made it very clear and very easy to complete the task.”<br>
+                                                <span class="emphasize_red">2)</span>“I think the shelves were good, it would be nice if the user could choose which of their shelves would go in that section since you can’t see them all.”<br>
+                                                <span class="emphasize_red">3)</span>“I thought it was fine like that. The process felt very streamlined to me. ”<br>
+                                                <span class="emphasize_red">4)</span>“I didn’t try accessing more shelves but I saw a button to do so, so it seems very accessible.”<br>
+                                                <span class="emphasize_red">5)</span>“I think more detail in an interface can be confusing and this version didn’t limit options while keeping things streamlined.”<br>
+                                            </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+
+                              <br><br>
+                              <br>
+
+                            <p class="chatbot_lead">I used Chat GPT to help me analyze the data I received from users and summarize my results to help me better identify patters and an overall unbiased consensus from the data. Here is how I prompted my chatbot:</p>
+
+                            <img src="speech_bubble6.png" height="200" style="position: relative; left:350px;" alt="speech bubbble showing how I prompted a chatbot to help me analyze the data from my A/B testing.">
+                            <br>
+                            <br>
+                            <br>
+
+                            <h3><b>results from user flow (a)</b></h3>
+
+                                <br>
+
+                                <p><span class="emphasize">Ease of Use: </span> Most users found the interface relatively intuitive, but many noted that they had to pause to ensure they selected the correct button. There was a common sentiment that the screen felt cluttered and that the multiple options could be overwhelming.</p>
+                                <p><span class="emphasize">Shelf Selection Process:</span> Users generally found it easy to select shelves but felt that the multiple steps involved added complexity. A few users mentioned that the extra options (like adding to multiple shelves) were beneficial, although some thought they weren’t necessary for their typical use.</p>
+                                <p><span class="emphasize">Control and Flexibility:</span> The option to add to multiple shelves was appreciated by some, but several users felt that it wasn’t necessary for every use case. The sentiment was split—some users valued the control, while others found it excessive.</p>
+                                <p><span class="emphasize">Suggestions for Improvement:</span> Users suggested reducing steps, improving the visual hierarchy of buttons, and making the "Add to Shelves" button more prominent.</p>
+
+                                <br>
+
+                            <h3><b>results from user flow (b)</b></h3>
+                                <br>
+
+                                <p><span class="emphasize_red">Ease of Use:</span> All users found the Quick Add button easy to understand and appreciate the simplicity. Many described the process as “streamlined” and “clear,” with fewer opportunities for confusion compared to Version A.</p>
+                                <p><span class="emphasize_red">Shelf Relevance:</span> Most users were happy with the suggested shelves in the modal. However, some noted that it would be beneficial if they could customize which shelves appear in the Quick Add options based on their needs.</p>
+                                <p><span class="emphasize_red">Flexibility:</span> Users generally did not find the limited number of shelves restrictive. The "See More" button was reassuring for those who wanted to access less-used shelves, indicating that additional options were available if needed.</p>
+                                <p><span class="emphasize_red">Preference for Streamlined Interface:</span> Users overwhelmingly preferred the Quick Add approach, mentioning that it minimized decision fatigue and provided a more convenient experience.</p>
+
+                            <br>
+                            <br>
+
+                        <h3> <b>did my hypothesis test true?</b> </h3><br>
+
+                        <p> <span class="emphasize">Yes,</span>the hypothesis that users would prefer Version B due to its simplicity and convenience proved to be accurate. The majority of users expressed a preference for the streamlined Quick Add functionality in Version B, as it reduced the number of steps and presented a cleaner interface.</p>
+                            <br>
+                        <p><span class="emphasize">User satisfaction</span> was higher for Version B, with users describing it as "easy," "streamlined," and "clear." Version A had mixed reviews; while some users valued the control it provided, others found it overwhelming or felt that certain options weren’t necessary for their use case. Overall, users seemed more content with the convenience and efficiency of Version B.</p>
+
+                        <br>
+                        <br>
+
+                            <h3><b>did you gain any unexpected insights?</b></h3>
+                                <br>
+
+                            <p>Some users suggested that being able to <span class="emphasize">customize which shelves appeared in the Quick Add modal would further enhance usability.</span> This was an interesting suggestion that wasn’t anticipated and could potentially make the flow even more personalized.</p>
+                                <br>
+                            <p>Another insight was that a few users in Version A <span class="emphasize">liked having the option to add to multiple shelves, even if they didn’t use it often.</span> This implies that a balance of simplicity with flexible options could be beneficial in future designs.</p>
+                                <br>
+                            <p>One user noted that it would be helpful to <span class="emphasize">see which friends have read the book,</span> hinting at a potential social integration element that could add value to the experience.</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Goodreads Redesign Alysun Sanders 2024</p></div>
+        </footer>
+
+
+
+
+
+        <!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <!-- Core theme JS - DO NOT DELETE -->
+        <script src="js/scripts.js"></script>
+        <!-- END LOADING JAVASCRIPT -->
+    </body>
+</html>
